@@ -1,0 +1,30 @@
+{
+    "feature_names": [
+        "machine_type",
+        "air_temp",
+        "proc_temp",
+        "rot_speed",
+        "torque",
+        "tool_wear"
+    ],
+    "numeric_features": [
+        "air_temp",
+        "proc_temp",
+        "rot_speed",
+        "torque",
+        "tool_wear"
+    ],
+    "categorical_feature": "machine_type",
+    "categorical_values": [
+        "H",
+        "L",
+        "M"
+    ],
+    "optimal_threshold": 0.9738472104072571,
+    "model_type": "XGBoost",
+    "test_f1_score": 0.6823529411764706,
+    "test_roc_auc": 0.9773880566719442,
+    "test_precision": 0.8529411764705882,
+    "test_recall": 0.5686274509803921,
+    "test_accuracy": 0.982
+}

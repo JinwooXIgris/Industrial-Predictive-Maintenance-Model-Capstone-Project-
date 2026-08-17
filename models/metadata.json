@@ -1,0 +1,24 @@
+{
+    "feature_names": [
+        "air_temp",
+        "proc_temp",
+        "rot_speed",
+        "torque",
+        "tool_wear",
+        "temp_diff",
+        "power_proxy",
+        "wear_per_speed",
+        "machine_type_H",
+        "machine_type_L",
+        "machine_type_M"
+    ],
+    "best_model": "hist_gradient_boosting",
+    "optimal_threshold": 0.9623732365376984,
+    "test_metrics": {
+        "accuracy": 0.9866666666666667,
+        "precision": 0.803921568627451,
+        "recall": 0.803921568627451,
+        "f1": 0.803921568627451,
+        "roc_auc": 0.9854531184454458
+    }
+}
