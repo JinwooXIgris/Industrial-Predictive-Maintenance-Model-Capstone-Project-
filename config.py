@@ -10,7 +10,7 @@ import os
 # 1. PATHS AND DIRECTORY STRUCTURE
 # -------------------------------------------------------------------------
 # Absolute path to the raw dataset on the local machine
-DATA_PATH = r"C:\Users\DELL\Documents\Projects\Notebooks\Capstone(Data Pioneers) files\predictive_maintenance.csv"
+DATA_PATH = "predictive_maintenance.csv"   # relative path
 
 # Output directories for artifacts
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
